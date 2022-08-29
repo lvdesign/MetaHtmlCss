@@ -82,13 +82,22 @@ article p{
 
 footer{ 
     display:flex;
-    text-align: center;
+    padding: 0 1em;    
     background-color: black;
+    
 }
-footer div{ 
-    flex:1
+footer div{
+    flex:1 ;
+    margin: 1em 0;
 }
-
+footer .left img{    
+    float:left;
+}
+footer .right p{
+    float:right;
+    
+    
+}
 footer p{
     color: white;
 }
